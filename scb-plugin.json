@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "name_for_human": "SCB Statistik",
+  "name_for_model": "scbStatistik",
+  "description_for_human": "Sök statistik från SCB:s databas via PxWeb API.",
+  "description_for_model": "Använd detta plugin för att hämta befolkningsstatistik och annan statistik från SCB:s öppna API.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://dittnamn.github.io/pxapi/PxAPI-2.yml",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://www.scb.se/favicon.ico",
+  "contact_email": "du@exempel.se",
+  "legal_info_url": "https://www.scb.se/om-scb/personuppgifter/"
+}
