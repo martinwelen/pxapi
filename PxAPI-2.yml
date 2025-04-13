@@ -1,0 +1,2 @@
+servers:
+  - url: https://api.scb.se/ov0104/v2beta/api/v2
